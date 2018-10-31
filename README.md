@@ -39,7 +39,7 @@ JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
 
 The node (last column) is the name of the server where the app is running on port 8989, see usage below.
 
-The batch script will create a `slurm-*.out`, where logs are stored. Check the status of the engine starting with `cat slurm-*.out`. When it's successfully been build, you'll see a line similar to this:
+The batch script will create a `slurm-*.out`, where logs are stored. Check the status of the process with `cat slurm-*.out`. When it's successfully been build, you'll see a line similar to this:
 
 ```bash
 2018-10-25 21:47:06,257 [main] INFO  com.graphhopper.http.GHServer - Started server at HTTP :8989
